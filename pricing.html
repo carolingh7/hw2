@@ -10,32 +10,53 @@
 </head>
 
 <body>
+<div class="m-8">
 
-    <h1>Caroline Cakes Pricing</h1>
+    <h1 class="text-2xl text-center uppercase font-bold pb-8">Caroline Cakes Pricing</h1>
 
-    <h2>Round cakes</h2>
+    <h2 class="pb-8 font-bold text-lg">Round cakes pricing</h2>
     
-    <table>
-        <tr>
-            <th>Diameter (in)</th>
-            <th>Price</th>
+    <table class="border-4">
+        <tr class="border-4">
+            <th class="border-4 p-2">Diameter (in)</th>
+            <th class="border-4 p-2">Price</th>
         </tr>
-        <tr>
-            <td>8</td>
-            <td>$30</td>
+        <tr class="border-4">
+            <td class="border-4 p-2">8</td>
+            <td class="border-4 p-2">$30</td>
         </tr>
-        <tr>
-            <td>12</td>
-            <td>$45</td>
+        <tr class="border-4">
+            <td class="border-4 p-2">12</td>
+            <td class="border-4 p-2">$45</td>
         </tr>
-        <tr>
-            <td>16</td>
-            <td>$60</td>
+        <tr class="border-4">
+            <td class="border-4 p-2">16</td>
+            <td class="border-4 p-2">$60</td>
         </tr>
     </table>
     
-<p>Return to <a href="index.html">homepage</a>.</p>
+    <h2 class="pt-12 font-bold text-lg">Place an order</h2>
 
+    <form netlify>
+
+        <label class="block py-4" for="name">Your Name</label>
+        <input class="border border-black" type="text" id="name" name="name">
+
+        <label class="block py-4" for="email">Your Email</label>
+        <input class="border border-black" type="text" id="email" name="email">
+
+        <label class="block py-4" for="order">What would you like to order?</label>
+        <input class="border border-black w-full h-24" type="text" id="order" name="order">
+
+        <div class="py-8">
+        <button class="block border border-black shadow-xl px-1 py-.5 font-bold">Submit</button>
+        </div>
+
+    </form>
+
+<p class="pt-8">Return to <a href="index.html" class="underline text-blue-500">homepage</a>.</p>
+
+</div>
 </body>
 
 </html>
